@@ -22,5 +22,6 @@ func main() {
 	logWriter.Write(b)
 	basic.BasicHello()
 	basic.BasicUser()
+	basic.ProtoToJson()
 
 }

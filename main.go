@@ -21,4 +21,6 @@ func main() {
 	log.SetOutput(logWriter)
 	logWriter.Write(b)
 	basic.BasicHello()
+	basic.BasicUser()
+
 }

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "my-protobuf/protogen/basic";
+
+message User {
+    uint32 id = 1;
+    string userName = 2;
+    bool isActive = 3;
+    bytes password = 4;
+}
